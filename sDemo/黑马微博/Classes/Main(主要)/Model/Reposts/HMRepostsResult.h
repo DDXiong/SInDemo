@@ -1,0 +1,16 @@
+//
+//  HMRepostsResult.h
+//  黑马微博
+//
+//  Created by apple on 14-7-22.
+//  Copyright (c) 2014年 heima. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface HMRepostsResult : NSObject
+/** 转发数组 */
+@property (nonatomic, strong) NSArray *reposts;
+/** 转发总数 */
+@property (nonatomic, assign) int total_number;
+@end
